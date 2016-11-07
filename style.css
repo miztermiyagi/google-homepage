@@ -29,7 +29,8 @@ body {
 
 #buttons {
   clear: both;
-  margin: 10px 676px 0px 676px;
+  margin: auto;
+  margin-top: 10px;
   width: 250px;
 }
 
