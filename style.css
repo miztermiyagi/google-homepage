@@ -2,9 +2,18 @@ body {
   background-color: FFFFFF
 }
 
-joint image{
+header {
   position: absolute;
   top: -295px;
   right: 0;
   width: 100%;
+}
+
+
+#footer {
+    background: #D2F0D0;
+    border-top: 1px solid #C8E5C3;
+    line-height: 40px;
+    min-width: 980px;
+    font-family: Arial;
 }
