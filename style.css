@@ -2,18 +2,53 @@ body {
   background-color: FFFFFF
 }
 
-header {
-  position: absolute;
-  top: -295px;
-  right: 0;
-  width: 100%;
+#Header {
+  float:right;
+  font-size: 18px;
+  width: 273px;
+  display: block;
 }
 
+.Content {
+  margin: auto;
+  width: 446px;
+}
 
-#footer {
+#logo {
+  padding-top:100px;
+  clear: right;
+}
+
+#gform {
+  position: relative;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 200px;
+}
+
+#buttons {
+  clear: both;
+  margin: 10px 676px 0px 676px;
+  width: 250px;
+}
+
+.footer {
     background: #D2F0D0;
     border-top: 1px solid #C8E5C3;
-    line-height: 40px;
-    min-width: 980px;
+    bottom: 0;
     font-family: Arial;
+    font-size: 14px;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+}
+
+#Advertising {
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
